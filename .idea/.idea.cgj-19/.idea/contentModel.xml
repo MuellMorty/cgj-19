@@ -7,6 +7,7 @@
       <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CorsshairMovement.cs" t="Include" />
         <e p="Player" t="Include">
           <e p="PlayerMovement.cs" t="Include" />
         </e>
