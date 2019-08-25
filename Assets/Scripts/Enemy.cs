@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Destroyable
 {
     public LayerMask blockLayer;
     public float speed = 0.5f;
@@ -22,13 +22,10 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
-
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
-    
-    
     void Update()
     {
         var position = target.position;
@@ -71,5 +68,10 @@ public class Enemy : MonoBehaviour
         
         animator.SetTrigger(Attack);
         attackCD = true;
+    }
+
+    protected override void OnDeath()
+    {
+        Destroy(gameObject);
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : Destroyable
 {
     public float movementSpeed = 5f;
     public float movementRunningSpeed = 10f;
