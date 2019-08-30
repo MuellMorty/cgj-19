@@ -41,4 +41,9 @@ public class Damaging : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent(out Destroyable d)) DoDamage(d);
     }
+    
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.TryGetComponent(out Destroyable d)) DoDamage(d);
+    }
 }

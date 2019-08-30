@@ -7,8 +7,11 @@ using UnityEngine.Serialization;
 public class Enemy : Destroyable
 {
     public LayerMask blockLayer;
+    public int damage = 3;
+    
     public float speed = 0.5f;
     public float attackWait = 0.5f;
+    
     private bool attackCD;
     private float attackTimer;
     
@@ -28,6 +31,11 @@ public class Enemy : Destroyable
 
     void Update()
     {
+        dir = transform.position;
+        
+        if (target.TryGetComponent<Destroyable>(out var dest) && dest.IsDead())
+            return;
+        
         var position = target.position;
 
         var hit = Physics2D.Linecast(transform.position, position, blockLayer);
@@ -60,12 +68,15 @@ public class Enemy : Destroyable
 
     private void OnCollisionStay2D(Collision2D other)
     {
-        if (!other.gameObject.CompareTag("Player")) return;
+        if (other.gameObject.CompareTag(tag))
+            return;
         
-        dir = rb.position;
-
+        if (!other.gameObject.TryGetComponent(out Destroyable dest))
+            return;
+        
         if (attackCD) return;
         
+        dest.Damage(damage);
         animator.SetTrigger(Attack);
         attackCD = true;
     }

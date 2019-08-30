@@ -3,7 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="d6c06447-a75d-42c9-b415-a47d6a61cf5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cgj-19/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cgj-19/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cgj-19/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cgj-19/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cgj-19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cgj-19/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Art/SpellBar/Spell_01_1:2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Art/SpellBar/Spell_01_1:3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Art/SpellBar/Spell_01_2:3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Art/SpellBar/Spell_02_1:2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Art/SpellBar/Spell_02_1:3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Art/SpellBar/Spell_02_2:3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grid/stage/Stage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Grid/stage/Stage.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grid/stage/blockade.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grid/stage/blockade.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grid/stage/floor.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grid/stage/floor.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grid/stage/water.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grid/stage/water.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Damaging.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Damaging.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +34,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CorsshairMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Damaging.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MonsterFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Decaying.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0CD2A33E-E0A5-4FC6-B14F-E3EA49461506/f8/1f134022/TileBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sprites/character/casting.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0CD2A33E-E0A5-4FC6-B14F-E3EA49461506/5f/fcb380d6/Tile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CorsshairMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/RndTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destroyable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Sprites/character/casting.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/659CD5F0-C4CE-410C-B23A-6CADD71BB76F/b1/a1d3def5/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridBrush.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,11 +55,16 @@
         <option value="$PROJECT_DIR$/Assets/CorsshairMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Damagable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destroyable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Damaging.cs" />
         <option value="$PROJECT_DIR$/Assets/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/MonsterFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Grid/stage/RandomTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tiles/RandomBrush.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tiles/RandomTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tiles/RndTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Damaging.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Decaying.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +119,8 @@
       <workItem from="1566679608174" duration="2158000" />
       <workItem from="1566735672557" duration="4086000" />
       <workItem from="1567020980715" duration="3054000" />
-      <workItem from="1567097892205" duration="5899000" />
+      <workItem from="1567097892205" duration="6484000" />
+      <workItem from="1567237736798" duration="9871000" />
     </task>
     <servers />
   </component>
@@ -121,6 +151,8 @@
     <state x="904" y="405" key="RiderGenerateDialog/2560.1440/1920.1200" />
     <state x="1047" y="600" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate" />
     <state x="1047" y="600" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate/2560.1440/1920.1200" />
+    <state x="936" y="333" key="run.anything.popup" />
+    <state x="936" y="333" key="run.anything.popup/2560.1440/1920.1200" />
     <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" />
     <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/2560.1440/1920.1200" />
   </component>
