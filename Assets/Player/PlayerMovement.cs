@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerMovement : Destroyable
 {
+    public Canvas gameOver;
+    
     public float movementSpeed = 5f;
     public float movementRunningSpeed = 10f;
 
@@ -13,6 +15,11 @@ public class PlayerMovement : Destroyable
     private Vector2 movement;
     public Animator animator;
 
+    void Start()
+    {
+        gameOver.enabled = false;
+    }
+    
     private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -41,6 +48,7 @@ public class PlayerMovement : Destroyable
     protected override void OnDeath()
     {
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        gameOver.enabled = true;
         // TODO: add death animation
     }
 }

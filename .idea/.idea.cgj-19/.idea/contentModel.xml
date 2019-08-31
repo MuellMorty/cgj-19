@@ -20,6 +20,9 @@
           <e p="Tiles" t="Include">
             <e p="RndTile.cs" t="Include" />
           </e>
+          <e p="UI" t="Include">
+            <e p="HeartManager.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="cgj-19.sln" t="IncludeFlat" />
