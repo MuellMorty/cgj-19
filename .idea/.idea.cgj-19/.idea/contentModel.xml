@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Gery\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Gery\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_cgj-19.-1670613926.00" t="ExcludeRecursive" />
-    <e p="D:\ParadoxSolutions\UnityProjects\cgj-19" t="IncludeRecursive">
-      <e p=".git\info\exclude" t="IncludeRecursive" />
+    <e p="C:\Users\Maarten\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Maarten\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_cgj-19.-1573532615.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Maarten\Desktop\cgj-19" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CorsshairMovement.cs" t="Include" />
@@ -23,9 +22,12 @@
         </e>
       </e>
       <e p="cgj-19.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
   </component>
 </project>
